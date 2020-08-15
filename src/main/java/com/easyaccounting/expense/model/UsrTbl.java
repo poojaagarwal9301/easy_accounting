@@ -21,6 +21,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * The persistent class for the usr_tbl database table.
+ * Stores detail for the user of application
  * 
  */
 @NoArgsConstructor

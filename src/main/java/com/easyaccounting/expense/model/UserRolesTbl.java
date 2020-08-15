@@ -20,6 +20,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * The persistent class for the user_roles_tbl database table.
+ * Maps user to roles he is assigned like admin or user
  * 
  */
 @NoArgsConstructor
