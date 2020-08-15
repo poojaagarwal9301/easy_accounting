@@ -22,6 +22,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * The persistent class for the exp_doc database table.
+ * Supporting documents with expense
  * 
  */
 @AllArgsConstructor

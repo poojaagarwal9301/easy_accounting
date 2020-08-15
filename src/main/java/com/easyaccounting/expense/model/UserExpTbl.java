@@ -20,6 +20,8 @@ import lombok.NoArgsConstructor;
 
 /**
  * The persistent class for the user_exp_tbl database table.
+ * Stores user expense - primary table 
+ * secondary table where more details about this expense is stored is ExpDetail
  * 
  */
 @NoArgsConstructor
@@ -44,12 +46,10 @@ public class UserExpTbl implements Serializable {
 	@Column(name="updated_on")
 	private Timestamp updatedOn;
 
-	//uni-directional many-to-one association to UsrTbl
 	@ManyToOne
 	@JoinColumn(name="user_id")
 	private UsrTbl usrTbl;
 
-	//uni-directional many-to-one association to ExpItemTbl
 	@ManyToOne
 	@JoinColumn(name="exp_item_id")
 	private ExpItemTbl expItemTbl;

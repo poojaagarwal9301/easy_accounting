@@ -1,0 +1,3 @@
+[submodule "app-ui"]
+	path = app-ui
+	url = https://github.com/poojaagarwal9301/easy_accounting/app-ui
